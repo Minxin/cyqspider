@@ -301,7 +301,7 @@ function savecsv(value,cyqinfo){
 
 
 async function start(){
-    for (var page = 149; page <=209; page++) {
+    for (var page = 1; page <=209; page++) {
         //console.log('for:'+page)
         var cyqurllist =  await getCodelist(page)
         for(var cyqurlitem of cyqurllist){
